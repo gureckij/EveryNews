@@ -282,7 +282,7 @@ body {
 
 /* Класс для выделения активной кнопки */
 .active {
-    border: 1px solid #4447e2;
+    border: 1px solid red;
 }
 
 /* шрифт с засечками */
