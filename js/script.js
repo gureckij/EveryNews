@@ -7,3 +7,6 @@ let sansSerifFontButton = document.querySelector('.font-button-sans-serif');
 document.body.classList.remove('dark');
 darkThemeButton.classList.remove('active');
 lightThtmeButton.classList.add('active');
+
+// код переключения шрифта
+document.body.classList.remove('serif');
