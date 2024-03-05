@@ -10,3 +10,4 @@ lightThtmeButton.classList.add('active');
 
 // код переключения шрифта
 document.body.classList.remove('serif');
+serifFontButton.classList.remove('active');
