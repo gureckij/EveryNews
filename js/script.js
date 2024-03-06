@@ -10,6 +10,12 @@ lightThtmeButton.onclick = function () {
     lightThtmeButton.classList.add('active');
 };
 
+darkThemeButton.onclick = function () {
+    document.body.classList.add('dark');
+    darkThemeButton.classList.add('active');
+    lightThtmeButton.classList.remove('active');
+};
+
 sansSerifFontButton.onclick = function () {
     // код переключения шрифта
     document.body.classList.remove('serif');
