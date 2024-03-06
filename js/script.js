@@ -16,3 +16,9 @@ sansSerifFontButton.onclick = function () {
     serifFontButton.classList.remove('active');
     sansSerifFontButton.classList.add('active');
 };
+
+serifFontButton.onclick = function () {
+    document.body.classList.add('serif');
+    serifFontButton.classList.add('active');
+    sansSerifFontButton.classList.remove('active');
+};
