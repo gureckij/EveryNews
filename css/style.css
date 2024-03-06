@@ -328,3 +328,37 @@ body.dark .user-menu-button-svg {
 body.dark .main-article-header {
     border-bottom: 1px solid rgba(249, 250, 251, 0.2);
 }
+
+.main-article-section button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: inherit;
+    color: inherit;
+    background: none;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #4447e2;
+
+    /* По умолчанию конопка не отображается */
+    display: none;
+}
+
+.main-article-section button:hover {
+    opacity: 0.7;
+}
+
+.main-article-section button:active {
+    opacity: 0.5;
+}
+
+/* Стили для сокращённого отображения раздела статьи */
+.main-article-section.short .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-article-section.short button {
+    display: inline-block;
+}
