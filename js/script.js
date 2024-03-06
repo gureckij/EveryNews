@@ -10,9 +10,9 @@ lightThtmeButton.onclick = function () {
     lightThtmeButton.classList.add('active');
 };
 
-sansSerifFontButton.onclick = function () {};
-
-// код переключения шрифта
-document.body.classList.remove('serif');
-serifFontButton.classList.remove('active');
-sansSerifFontButton.classList.add('active');
+sansSerifFontButton.onclick = function () {
+    // код переключения шрифта
+    document.body.classList.remove('serif');
+    serifFontButton.classList.remove('active');
+    sansSerifFontButton.classList.add('active');
+};
