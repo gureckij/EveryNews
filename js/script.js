@@ -8,4 +8,5 @@ moreButton.onclick = function () {
 };
 
 for (let articleSection of articleSections) {
+    console.log(articleSection);
 }
